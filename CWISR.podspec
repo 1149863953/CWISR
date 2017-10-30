@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CWISR"
   s.version      = "0.0.1"
-  s.summary      = "A short description of CWISR."
+  s.summary      = "测试科大讯飞SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                    测试科大讯飞SDK
                    DESC
 
-  s.homepage     = "http://EXAMPLE/CWISR"
+  s.homepage     = "https://github.com/1149863953/CWISR"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
