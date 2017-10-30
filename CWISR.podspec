@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   测试科大讯飞SDK
+                   科大讯飞SDK通过CocoaPods集成测试。
                    DESC
 
   s.homepage     = "https://github.com/1149863953/CWISR"
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://EXAMPLE/CWISR.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/1149863953/CWISR.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,9 +119,9 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   s.vendored_frameworks = 'lib/iflyMSC.framework'
-  s.frameworks = 'AVFoundation', 'SystemConfiguration', 'Foundation', 'CoreTelephony', 'AudioToolbox', 'UIKit', 'CoreLocation', 'Contacts', 'AddressBook', 'QuartzCore', 'CoreGraphics'
+  s.frameworks = 'AddressBook', 'UIKit', 'AVFoundation', 'SystemConfiguration', 'Foundation', 'CoreTelephony', 'AudioToolbox', 'CoreLocation', 'Contacts', 'QuartzCore', 'CoreGraphics'
 
-  # s.library   = "iconv"
+  s.library   = "z"
   # s.libraries = "iconv", "xml2"
 
 
